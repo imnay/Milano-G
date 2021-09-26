@@ -1,0 +1,63 @@
+/* https://fonts.google.com/?safe=active&safe=active */
+@import url('https://fonts.googleapis.com/css2?family=Caramel&family=Merriweather:ital,wght@1,300&family=Playfair+Display:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caramel&display=swap'); 
+/* @import url('https://fonts.googleapis.com/css2?family=Gemunu+Libre:wght@200&display=swap'); */
+:root{
+    --font-header: 'Caramel', cursive;
+    --font-content: 'Playfair Display', serif;
+    /* --font-family: 'Gemunu Libre', sans-serif, cursive; */
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: var(--font-content) ;
+    min-height: 100%;
+    margin: 0;
+}
+
+header{
+    background: url('../images/marmor.jpg');
+    background-position: center;
+    background-repeat: 0;
+    background-size: cover;
+}
+
+.milano-header{
+    text-align: center;
+    /* font-family:var(--font-family); */
+    font-size: 80px;
+
+}
+
+.milano-header a{
+    text-decoration: none;
+    color:black;
+}
+
+.milano-nav ul{
+    display:flex;
+    justify-content: center;
+    list-style: none;
+    background-color: #C7A445;
+    padding: 20px;
+    font-size: 25px;
+}
+
+.milano-nav li{
+    margin: 0 40px;
+}
+
+.milano-nav li a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+.milano-nav li a:hover{
+    opacity: .8;
+}
+
