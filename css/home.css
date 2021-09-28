@@ -139,8 +139,7 @@ font-family: var(--font-text);
 .milano-offer{
     display: flex;
     justify-content: center;
-    margin: 30px auto;
-    
+    margin: 30px auto;  
 }
 
 .milano-offer img{
@@ -152,11 +151,9 @@ font-family: var(--font-text);
 .milano-offer-info{
     margin-left: 100px;
     max-width: 700px;
-    
 }
 
 input[type="button"] {
-    
     background-color: rgb(38, 105, 55);
     width: 300px;
     margin: 120px 0;
@@ -171,5 +168,20 @@ input[type="button"]:hover {
     background-color: rgb(33, 66, 41);
 }
 
+footer{
+   margin-top: auto;
+   background:url('../images/marmor.jpg') ;
+   background-position: center;
+   background-repeat: 0;
+   background-size: cover;
+   display: flex;
+   justify-content: center;
+}
 
-   
+footer section{
+    padding: 10px 60px;
+}
+
+.milano-footer-time {
+    margin-right: 70px;
+}
