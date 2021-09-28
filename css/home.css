@@ -156,7 +156,8 @@ font-family: var(--font-text);
 }
 
 input[type="button"] {
-    background-color: rgb(31, 90, 46);
+    
+    background-color: rgb(38, 105, 55);
     width: 300px;
     margin: 120px 0;
     padding: 25px 10px;
@@ -166,8 +167,8 @@ input[type="button"] {
    font-size: 18px;
 }
 
-input[type="button"] :hover{
-    opacity: .6;
+input[type="button"]:hover {
+    background-color: rgb(33, 66, 41);
 }
 
 
