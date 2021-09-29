@@ -1,1 +1,254 @@
 
+/* https://fonts.google.com/?safe=active&safe=active */
+@import url('https://fonts.googleapis.com/css2?family=Caramel&family=Merriweather:ital,wght@1,300&family=Playfair+Display:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caramel&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caramel&family=Merriweather:ital,wght@1,300&family=Playfair+Display:wght@500&display=swap');
+:root{
+    --font-header: 'Caramel', cursive;
+    --font-content: 'Playfair Display', serif;
+    --font-text: 'Merriweather', serif;
+    --dark: #304659;
+    --dark80: rgba(48,70,89,.8);
+    --dark60: rgba(48,70,89,.6);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: var(--font-content) ;
+    min-height: 100%;
+    margin: 0;
+}
+header{
+    background: url('../images/marmor.jpg');
+    background-position: center;
+    background-repeat: 0;
+    background-size: cover;
+}
+.milano-header{
+    text-align: center;
+    font-family:var(--font-header);
+    font-size: 80px;
+}
+.milano-header a{
+    text-decoration: none;
+    color:black;
+}
+.milano-nav ul{
+    display:flex;
+    justify-content: center;
+    list-style: none;
+    background-color: #C7A445;
+    padding: 20px;
+    font-size: 25px;
+}
+.milano-nav li{
+    margin: 0 40px;
+}
+.milano-nav li a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+.milano-nav li a:hover{
+    opacity: .6;
+}
+.milano-welcome{
+background: linear-gradient(
+    var(--dark60),
+    var(--dark60)
+),url('../images/restaurang.jpg');
+background-position: center;
+background-repeat: 0;
+background-size:cover ;
+height: 800px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+color: white;
+}
+.milano-logo{
+text-align:center;
+font-family: var(--font-header);
+font-size: 80px;
+}
+.milano-welcome-head{
+font-size:45px;
+margin-top:100px;
+}
+.milano-welcome-text{
+    font-size: 20px;
+    width: 1000px;
+    font-family: var(--font-text);
+    font-weight: bold;
+}
+.milano-welcome-2{
+    background:linear-gradient(
+        var(--dark60),
+        var(--dark60)), 
+        url('../images/pasta-scratch.jpeg');
+    background-position: right;
+    background-repeat: 0;
+    background-size:cover ;
+    height: 750px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+}
+.milano-welcome-2 .milano.side{
+    max-width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.milano-pasta{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.Pasta-head{
+    font-size: 35px;    
+}
+.pasta-text {
+line-height: 2rem;
+max-width: 800px;
+font-size: 20px;
+color: rgb(255, 255, 255);
+font-weight: bold;
+font-family: var(--font-text);
+}
+.milano-offer{
+    display: flex;
+    justify-content: center;
+    margin: 30px auto;
+
+    margin: 30px auto;  
+}
+
+.milano-offer img{
+    border-radius: 10px;
+    height: 300px;
+    border: 3px solid goldenrod;
+}
+.milano-offer-info{
+    margin-left: 100px;
+    max-width: 700px;
+
+}
+
+input[type="button"] {
+
+    background-color: rgb(38, 105, 55);
+    width: 300px;
+    margin: 120px 0;
+    padding: 25px 10px;
+    border-radius: 50px;
+    border: 2px solid rgb(41, 46, 41);
+   cursor: pointer;
+   font-size: 18px;
+}
+input[type="button"]:hover {
+    background-color: rgb(33, 66, 41);
+}
+
+footer{
+   margin-top: auto;
+   background:url('../images/marmor.jpg') ;
+   background-position: center;
+   background-repeat: 0;
+   background-size: cover;
+   display: flex;
+   justify-content: center;
+}
+
+footer section{
+    padding: 10px 60px;
+}
+
+
+.milano-footer-time {
+    margin-right: 70px;
+} 
+
+.middle{
+position: absolute;
+
+transform: translateY(-50%);
+
+text-align: center;
+bottom: -30px;
+right: 16px;
+}
+
+
+.delivery{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    
+    font-size: 18px;
+    width: 0%;
+    height: auto;
+ 
+  }
+    
+
+.btn{
+    display:inline-block ;
+    width: 90px;
+    height: 90px;
+    background:#f1f1f1;
+    margin: 10px;
+    border-radius:30% ;
+    box-shadow: 0 5px 15px -5px #00000070;
+    color:#3498db ;
+    position: relative;
+    overflow: hidden;
+}
+
+.btn i{
+ line-height: 90px;
+ font-size: 26px;
+ transition:0.2s linear ;
+}
+.btn:hover i{
+    transform: scale(1,3);
+    color: goldenrod;
+}
+
+.btn::before{
+    content:"" ;
+    width: 120px;
+    height: 120%;
+    background: #3498db;
+    transform: rotate(45deg);
+    left: -110%;
+    top: 90%;
+
+}
+.btn:hover::before{
+    animation:aaa 0,7s 1;
+    top: -10%;
+    left: -10%;
+
+}
+
+@keyframes aaa {
+0%{left: -110%;
+    top: 90%;
+
+
+} 50%{left: 10%;
+    top: -30%;
+
+
+}100%{
+    top: -10%;
+    left: -10%;
+
+}
+}
+
