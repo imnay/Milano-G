@@ -261,8 +261,11 @@ footer{
     background-size: cover;
     display: flex;
     justify-content: center;
+    margin-top: 280px;
+    
  }
  
  footer section{
      padding: 10px 60px;
  }
+ 
