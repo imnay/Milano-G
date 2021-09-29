@@ -66,28 +66,48 @@ header{
 }
 
 
-footer {
-    position: fixed;
-    bottom: 0px;
-    width: 100%;
-    background: url('../images/marmor.jpg') ;
+footer{
+    margin-top: auto;
+    background:url('../images/marmor.jpg') ;
+    background-position: center;
+    background-repeat: 0;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+ }
+ 
+ footer section{
+     padding: 10px 60px;
+ }
+ 
+ .milano-footer-time {
+     margin-right: 70px;
+ }
+
+.content-left h2{
+    font-size :60px ;
+    text-align: center;
+    padding-bottom: 20px;
+
 }
 
-.main content {
-    display: grid;
+.content-right h2{
+    font-size :60px ;
+    text-align: center;
+    padding-bottom: 20px;
+
 }
 
-.main content .box {
-    flex-basis: 50%;
-    padding: 10px 20px;
+.content-left p, .content-right p  {
+    font-size: 20px;
+    padding-top: 50px;
+    font-family: cursive;
 }
 
-.box h2 {
-    font-size: 1.125rem;
-    font-weight: 600;
-    text-transform: uppercase;
-}
 
-.box .content {
-    margin: 20px 0 0 0;
+main{
+height: 90vh;
+display: grid;
+grid-template-columns: 1fr 1fr;
+
 }
