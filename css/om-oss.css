@@ -85,14 +85,14 @@ footer{
  }
 
 .content-left h2{
-    font-size :60px ;
+    font-size :50px ;
     text-align: center;
     padding-bottom: 20px;
 
 }
 
 .content-right h2{
-    font-size :60px ;
+    font-size :50px ;
     text-align: center;
     padding-bottom: 20px;
 
@@ -111,3 +111,15 @@ display: grid;
 grid-template-columns: 1fr 1fr;
 
 }
+
+.content-left img {
+    height: 200px;
+    width: 400px;
+      
+    }
+
+    .content-right img {
+        height: 200px;
+    width: 400px;
+    margin: 30px;
+    }
