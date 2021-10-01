@@ -269,3 +269,27 @@ footer{
      padding: 10px 60px;
  }
  
+ /* /..stora dessktopkörma */
+@media screen and (max-width: 1000px {
+	.container-1,.container-2{
+	 width: 1490px;
+	}
+  }
+  /* /..small dessktopkärma */
+@media screen and (max-width: 1200px) {
+	.container-1,.container-2{
+	 margin: 20px;
+	}
+  }
+  /* /..tablet såsom ipad*/
+@media screen and (max-width: 960px) {
+	.container-1,.container-2{
+	 width: 860px;
+	}
+}
+  /* /moniltelefoner*/
+  @media screen and (max-width: 1200px) {
+	.container-1,.container-2{
+	 width: 800px;
+	}
+}
