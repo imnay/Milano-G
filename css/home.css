@@ -11,12 +11,14 @@
     --dark60: rgba(48,70,89,.6);
 }
 
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+/* For desktop */
 body{
     font-family: var(--font-content) ;
     min-height: 100%;
@@ -82,17 +84,17 @@ color: white;
 .milano-logo{
 text-align:center;
 font-family: var(--font-header);
-font-size: 80px;
+font-size: 110px;
 }
 
 .milano-welcome-head{
-font-size:45px;
+font-size:90px;
 margin-top:100px;
 }
 
 .milano-welcome-text{
     font-size: 20px;
-    width: 1000px;
+    width: 950px;
     font-family: var(--font-text);
     font-weight: bold;
 }
@@ -124,12 +126,13 @@ margin-top:100px;
 }
 
 .Pasta-head{
-    font-size: 35px;    
+    font-size: 60px;    
+    margin-bottom: 20px;
 }
 
 .pasta-text {
 line-height: 2rem;
-max-width: 800px;
+max-width: 900px;
 font-size: 20px;
 color: rgb(255, 255, 255);
 font-weight: bold;
@@ -186,9 +189,130 @@ footer{
 
 footer section{
     padding: 10px 60px;
+    margin: auto 100px;
 }
 
 .milano-footer-time {
     margin-right: 70px;
+}
+
+/* For Pads */
+@media (max-width:768px){
+.milano-nav ul{
+  font-size: 25px;
+  text-align: center;
+ }
+ 
+ .milano-nav li{
+     margin: auto 35px;
+ }
+
+ .milano-nav ul {
+     padding: 30px;
+ }
+  .milano-welcome{
+      height: 850px;
+      }
+  
+  
+  .milano-logo{
+      font-size: 90px;
+      display: flex;
+  justify-content: center;    
+  }
+      
+      .milano-welcome-head{
+      font-size:65px;
+      margin:30px 30px;
+      }
+      
+      .milano-welcome-text{
+          font-size: 22px;
+          width: 600px;
+          line-height: 1.9rem;
+          text-align: center;
+      }
+      
+      .milano-welcome-2{
+          height: 850px;  
+      }
+      
+      .Pasta-head{
+          font-size: 50px;    
+      }
+      
+      .pasta-text {
+      line-height: 2.2rem;
+      max-width: 600px;
+      font-size: 22px;
+      font-weight: lighter;
+      }
+      
+      input[type="button"] {
+          width: 320px;
+          margin: 60px 0;
+      }
+      
+      footer section{
+          padding: 10px 10px;
+          margin: auto 50px;
+      }
+  }
+
+/* For phone */
+@media (max-width:500px) {
+  .milano-nav ul{
+Display:block;
+font-size: 25px;
+text-align: center;
+}
+
+.milano-welcome{
+    height: 700px;
+    }
+
+
+.milano-logo{
+    font-size: 60px;
+    display: flex;
+justify-content: center;    
+}
+    
+    .milano-welcome-head{
+    font-size:40px;
+    margin:50px 50px;
+    }
+    
+    .milano-welcome-text{
+        font-size: 18px;
+        width: 370px;
+        line-height: 1.9rem;
+        text-align: center;
+    }
+    
+    .milano-welcome-2{
+        height: 850px;  
+    }
+    
+    .Pasta-head{
+        font-size: 30px;    
+    }
+    
+    .pasta-text {
+    line-height: 1.9rem;
+    max-width: 350px;
+    font-size: 18px;
+    font-weight: lighter;
+    }
+    
+    input[type="button"] {
+        width: 200px;
+        margin: 50px 0;
+    }
+    
+    footer section{
+        padding: 50px 5px;
+        margin: auto;
+    }
 }
 
